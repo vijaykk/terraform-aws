@@ -1,0 +1,28 @@
+# app/services/topic_event_description_builder.rb
+
+class TopicEventDescriptionBuilder
+  def self.topic_reference
+    NotificationConfigValidator::VALID_TOPIC_EVENTS.to_h do |topic, events|
+      [
+        topic,
+        {
+          description: "#{humanize(topic)} events",
+          events: events.to_h do |event|
+            [
+              event,
+              {
+                description: "#{humanize(topic)} #{humanize(event).downcase}"
+              }
+            ]
+          end
+        }
+      ]
+    end
+  end
+
+  def self.humanize(key)
+    key.to_s.tr("_", " ").capitalize
+  end
+
+  private_class_method :humanize
+end
