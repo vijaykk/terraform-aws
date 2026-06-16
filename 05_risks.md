@@ -144,4 +144,3 @@ This step is complete when:
 - output helps avoid incorrect assumptions in planning
 
 
-Mr. Koppineedi works under my supervision as a Java Backend Developer supporting Fifth Third Bank technology initiatives. As his manager, I directly oversee his day-to-day activities, including assigning and prioritizing work, reviewing deliverables, monitoring project progress, and ensuring alignment with business and technical objectives. We regularly interact through Microsoft Teams calls, daily stand-up meetings, sprint planning sessions, backlog refinement discussions, and other project activities to review priorities, track progress, and address issues or dependencies. He collaborates closely with Agile Evangelists, Product Owners, business stakeholders, and cross-functional team members to develop, maintain, and support enterprise applications.
